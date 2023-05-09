@@ -1,8 +1,3 @@
-# GdTI-Projekt
-
-- [Termin 1: Einführung in die Nutzung der Linux-Kommandozeile](termin01)
-- [Termin 2: Einführung in das Arbeiten mit GHDL und GTKWAVE](termin02)
-
 ## Termin 1: Einführung in die Nutzung der Linux-Kommandozeile
 ### Aufgabe 1: los geht's
 - `cp -r /import/grpdrvs/gdti_projekt_ws/termin01/ .`
