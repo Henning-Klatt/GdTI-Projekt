@@ -40,3 +40,9 @@
 - [nand_tb.vhdl](aufgabe_2/nand_tb.vhdl)
 
 ![gtkwave Screenshot](aufgabe_2/img.png?raw=true "gtkwave Screenshot von nand")
+
+### Knobelaufgabe: Erstellen Sie eine Entity für einen Inverter (plus Testbench)
+- [not.vhdl](knobelaufgabe/not.vhdl)
+- [not_tb.vhdl](knobelaufgabe/not_tb.vhdl)
+
+![gtkwave Screenshot](knobelaufgabe/img.png?raw=true "gtkwave Screenshot von not")
