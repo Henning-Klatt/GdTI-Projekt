@@ -1,6 +1,6 @@
 ## Termin 3: Boolesche Funktionen in VHDL
 ### Aufgabe 1: Testen sie einfache boolesche Funktion
-Testbench-Lauf von [f3.vhdl](termin03/aufgabe_1/f3.vhdl):
+Testbench-Lauf von [f3.vhdl](aufgabe_1/f3.vhdl):
 ```
 ➜  aufgabe_1 git:(main) ✗ ghdl -a f3.vhdl 
 ➜  aufgabe_1 git:(main) ✗ ghdl -a f3_tb.vhdl
@@ -32,8 +32,8 @@ Wahrheitstabelle:
 | 1         | 1         | 0         | 0          | 1          | 1          | 1          | 1          | 1          | 1          |
 | x         | x         | x         | x          | x          | x          | x          | x          | x          | x          |
 
-[wuerfel_dekoder.vhdl](termin03/aufgabe_2/wuerfel_dekoder.vhdl)
+[wuerfel_dekoder.vhdl](aufgabe_2/wuerfel_dekoder.vhdl)
 
 ### Knobelaufgabe: Würfeldekoder mit Datenfluss
 
-[wuerfel_dekoder.vhdl](termin03/knobelaufgabe/wuerfel_dekoder.vhdl)
+[wuerfel_dekoder.vhdl](knobelaufgabe/wuerfel_dekoder.vhdl)
