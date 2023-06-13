@@ -11,7 +11,6 @@ end alu4or2;
 architecture behav of alu4or2 is
   component oder is port (a, b: in std_logic; y : out std_logic); end component;
 begin
-  -- hier fehlt was
   OR0 : oder PORT MAP (a(0), b(0), y(0));
   OR1 : oder PORT MAP (a(1), b(1), y(1));
   OR2 : oder PORT MAP (a(2), b(2), y(2));
