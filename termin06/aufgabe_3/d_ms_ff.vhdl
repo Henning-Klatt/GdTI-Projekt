@@ -11,7 +11,6 @@ end d_ms_ff;
 
 architecture behav of d_ms_ff is
 
---SIGNAL r_g, s_g, y_a, y_b : STD_LOGIC;
 SIGNAL Qm : STD_LOGIC;
 SIGNAL not_Qm : STD_LOGIC;
 
@@ -23,9 +22,6 @@ component d_latch
 end component;
 
 
---ATTRIBUTE KEEP : BOOLEAN;
---ATTRIBUTE KEEP OF r_g, s_g, y_a, y_b : SIGNAL IS true;
-
 begin
   
   -- master: D, clk, y, not_y
@@ -33,6 +29,5 @@ begin
   
   -- slave: D, clk, y, not_y
   D2:d_latch port map(Qm, "NOT"(clk), y, not_y);
-
 
 end behav;

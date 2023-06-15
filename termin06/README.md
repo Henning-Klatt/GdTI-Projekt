@@ -10,6 +10,14 @@ Entity [d_latch.vhdl](aufgabe_2/d_latch.vhdl)
 
 ### Aufgabe 3: D Master-Slave Flip-Flop
 
-Entity [d_ms_ff.vhdl](aufgabe_3/d_ms_ff.vhdl) uses two [d_latch.vhdl](aufgabe_3/d_latch.vhdl) components one after another using a inverted clock signal for the second one.
+Die Entity [d_ms_ff.vhdl](aufgabe_3/d_ms_ff.vhdl) verwendet zwei [d_latch.vhdl](aufgabe_3/d_latch.vhdl) components hinterneinander mit einem inverten clock Signal für den zweiten d_latch.
+
+Das Master-Slave Flip-Flop benötigt eine Flanke im clock Signal, damit Werte gespeichert werden können. Hier wird bei einer steigenden Flanke das Eingangssignal im Master gespeichert, bei einer fallenden Flanke an den Slave übertragen. Flankensensitivität bedeutet also, dass das Master-Slave Flip-Flop nur bei einer steigenden Flanke den Eingang speichert.
+
 
 ### Knobelaufgabe: Flankeninverter
+Man invertiere das clock Signal:
+
+```
+NOT(clk)
+```
