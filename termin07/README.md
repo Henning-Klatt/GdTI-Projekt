@@ -12,6 +12,6 @@
 
 ### Knobelaufgabe: Subtrahierer
 
-** WiP **
-
 - [addsub4.vhdl](knobelaufgabe/addsub4.vhdl)
+
+![4bit_full_add_sub.jpg](knobelaufgabe/4bit_full_add_sub.jpg)
