@@ -7,3 +7,4 @@
 - [Termin 5: Operationen für eine ALU](termin05)
 - [Termin 6: Latches und Flip-Flops](termin06)
 - [Termin 7: Addierer und Subtrahierer](termin07)
+- [Termin 8: Eine ALU in VHDL](termin08)
