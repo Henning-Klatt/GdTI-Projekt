@@ -13,5 +13,7 @@
 
 ### Aufgabe 3: Operationen anbinden
 
+- [alu4.vhdl](aufgabe_3/alu4.vhdl)
+
 ### Knobelaufgabe: ALU mit Barrel-Shifter statt Oder
 
