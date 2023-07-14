@@ -17,3 +17,8 @@
 
 ### Knobelaufgabe: ALU mit Barrel-Shifter statt Oder
 
+WiP!
+
+- [lsr.vhdl](knobelaufgabe/lsr.vhdl)
+- [alu4_lsr.vhdl](knobelaufgabe/alu4_lsr.vhdl)
+
