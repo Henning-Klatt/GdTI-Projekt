@@ -11,22 +11,31 @@ end lsr;
 
 architecture behav of lsr is
 begin
-  -- hier die knobelaufgabe ausfuellen
 
-  y <= std_logic_vector(shift_right(unsigned(a), 1));
+  process(a,b) begin
 
-  process
-    variable shift : STD_LOGIC_VECTOR(3 DOWNTO 0) := a;
+    case b is
+      when "0000" =>
+        y <= a;
+      when "0001" =>
+        y(3) <= '0';
+        y(2) <= a(3);
+        y(1) <= a(2);
+        y(0) <= a(1);
+      when "0010" =>
+        y(3) <= '0';
+        y(2) <= '0';
+        y(1) <= a(3);
+        y(0) <= a(2);
+      when "0011" =>
+        y(3) <= '0';
+        y(2) <= '0';
+        y(1) <= '0';
+        y(0) <= a(3);
+      when others =>
+        y <= "0000";
+    END case;
 
-    BEGIN
-
-
-      --for i in 0 to to_integer(unsigned(b)) loop
-   
-        --shift := shift & '0';
-
-      --end loop;
-  
   END process;
 
-end architecture;
+END architecture;
