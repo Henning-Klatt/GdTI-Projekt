@@ -8,3 +8,4 @@
 - [Termin 6: Latches und Flip-Flops](termin06)
 - [Termin 7: Addierer und Subtrahierer](termin07)
 - [Termin 8: Eine ALU in VHDL](termin08)
+- [Termin 10: Zustandsautomaten](termin10)
